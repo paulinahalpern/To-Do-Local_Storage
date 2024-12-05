@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hello Bulma!</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css"
+    />
+  </head>
+  <div class="card">
+    <header class="card-header">
+      <p class="card-header-title">Housework To DO list</p>
+    </header>
+    <div class="card-content">
+      <div class="content">
+        Create do do list and split houseworks between your housemates!
+      </div>
+    </div>
+    <div class="block">
+        <p>Please enter task below:</p>
+        <form>
+<input type="text"id="newTaskWritten"placeholder='New task'>
+</form>
+<div>
+<button id="addButton"class="button is-normal" >Add</button>
+</div>
+<div id="addList">
+</div>
+    </div>
+    <footer class="card-footer">
+      <button id="clearAll" class="card-footer-item">Clear All</button>
+    </footer>
+  </div>
+</div>
+<script src="code.js"></script>
+</body>
+</html>
